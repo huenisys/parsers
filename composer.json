@@ -1,0 +1,28 @@
+{
+    "name": "huenisys/parsers",
+    "description": "collection of file parsers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huenisys",
+            "email": "paul@huenits.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "symfony/yaml": "^4.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "huenisys\\Parsers\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "huenisys\\Parsers\\Tests\\": "tests/"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
